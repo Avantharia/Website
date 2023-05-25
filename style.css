@@ -28,13 +28,13 @@ body {
     background-attachment: fixed;
     color: rgb(255, 0, 247);
 }
-ul {
+.Meny {
     display: flex;
     justify-content: center;
     gap: 100px;
     padding: 0;
 }
-li {
+.MenyItem {
     list-style: none;
     margin: 0;
     padding: 0;
