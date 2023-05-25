@@ -1,22 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
+    <form>
+
+        <div>
+            <label for="fname">first name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Naruto" required>
+        </div>
+
+        <br>
+        <div>
+            <label for="lname">last name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Uzumaki" required>
+        </div>
+        <br>
+        <div>
+            <lable for="pass>">password:</lable>
+            <input type="password" id="pass" name="pass" maxlength="12" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">email</label>
+            <input type="email" id="email" name="email" placeholder="NaMaki@gmail.com" required>
+
+        </div>
+        <br>
+        <div>
+            <lable for="phone">phone #</lable>
+            <input type="tel" id="phone" name="phone" placeholder="(123)-456-789">
+        </div>
+        <br>
+        <div>
+            <input style="background-color: red;color:blue" type="reset">
+        </div>
+
+    </form>
+
     <button onclick="dattebayo()" style="background-color: black;color: red;">
-    
-        <p id="test">Dattebayo</p>
-    
+
+        <p id="test">Submite! Dattebayo!</p>
+
     </button>
-    
+
     <script>
-        function dattebayo(){
-            document.getElementById("test").innerHTML = "Etebayo"
+        function dattebayo() {
+            document.getElementById("test").innerHTML = "Naisu! Dattebane!"
         }
     </script>
 </body>
+
 </html>
