@@ -24,7 +24,7 @@ h4 {
     
 }
 body {
-    background-image: url("../Image/Background.jpg");
+    background-image: url("./Image/Background.jpg");
     background-attachment: fixed;
     color: rgb(255, 0, 247);
 }
