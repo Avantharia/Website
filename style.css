@@ -1,0 +1,43 @@
+h1 {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.IMGlink {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: fit-content;
+}
+button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+h4 {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    
+}
+body {
+    background-image: url("/Image/Background.jpg");
+    color: white;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 0;
+}
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    display: inline-block;
+}
