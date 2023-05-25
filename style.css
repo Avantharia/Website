@@ -25,7 +25,8 @@ h4 {
 }
 body {
     background-image: url("/Image/Background.jpg");
-    color: white;
+    background-attachment: fixed;
+    color: rgb(255, 0, 247);
 }
 ul {
     display: flex;
@@ -40,4 +41,14 @@ li {
 }
 a {
     display: inline-block;
+    
 }
+a:link {
+    color: red;
+  }
+  a:visited {
+    color: rgba(123, 0, 255, 0.487);
+  } 
+  .soup {
+    font-size: 24px;
+  }
