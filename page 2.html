@@ -7,32 +7,53 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     <title>my first website</title>
+
+    <meta charset="UTF-8">
+    <meta name="Description" content="Learning about making a website">
+    <meta name="keyword" content="HTML,Learning,Website">
+    <meta name="author" content="Mizuki">
+    <meta name="viewport" content="width=devive-width, initial-scale=1.0">
+    
 </head>
 
 <body>
     <h1>This is a Test to add page 2</h1>
     <p class="soup">This is normal text</p>
     <p class="soup">This is <b></b>bold</b> text</p>
-    <p class="soup">This is <i>italic</i> text</p> 
-    <p class="soup">This is <small></small>small</small<text</p>
-    <p class="soup">This is <sub></sub>subscript</sub></sub> text</p> 
+    <p class="soup">This is <i>italic</i> text</p>
+    <p class="soup">This is <small>small</small>text</p>
+    <p class="soup">This is <sub></sub>subscript</sub></sub> text</p>
     <p class="soup">This is <sup>superscript</sup> text</p>
     <p class="soup">This is <ins>inserted</ins> text</p>
     <p class="soup">This is <del></del>deleted</del> text</p>
-    <p class="soup">This is <mark>marked</mark> text</p> 
+    <p class="soup">This is <mark>marked</mark> text</p>
 
     <h4>Unordred List</h4>
     <ul>
-        <li>Beans</li>
+        <li>Beans
+            <ul>
+                <li>red beans</li>
+            </ul>
+        </li>
         <li>tomatoes</li>
-        <li>Onion</li>
+        <li>Onion
+            <ul>
+                <li>red onions</li>
+            </ul>
+        </li>
     </ul>
 
     <h4>Ordered List</h4>
     <ol>
         <li>Eat breakfast</li>
         <li>take shower</li>
-        <li>Learn Programming</li>
+        <li>Learn Programming
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </li>
     </ol>
 
     <h4>Description List</h4>
@@ -44,6 +65,14 @@
         <dt>JavaScript</dt>
         <dd>This adds functionality to a webpage</dd>
     </dl>
+
+    <!-- iframe = embed content from another source into an HTML document
+            ex. used for ads, used in many hacking techniques-->
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/NaHvL7CWED4" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
 
 </body>
 
