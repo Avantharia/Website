@@ -33,11 +33,14 @@ body {
     justify-content: center;
     gap: 100px;
     padding: 0;
+   
+    
 }
 .MenyItem {
     list-style: none;
     margin: 0;
     padding: 0;
+    
 }
 a {
     display: inline-block;
