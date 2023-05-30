@@ -1,0 +1,17 @@
+body{
+    background-image: url("Image/Fedje.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    background: linear-gradient(to right,skyblue, rgb(255, 255, 255));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+p{
+    background: linear-gradient(to left,skyblue, rgb(255, 255, 255));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
